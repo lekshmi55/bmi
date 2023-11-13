@@ -1,0 +1,50 @@
+.container {
+    text-align: center;
+    display: flex;
+}
+
+
+body{
+    margin: 0%;
+    padding:0%;
+    
+  }
+
+  .calculator{
+    height: 250px;
+    width: 300px;
+    border: 2px solid black;
+    padding-top: 26px;
+    padding-left: 9px;
+    margin-left: 380px;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px rgba(9, 192, 46, 0.97);
+   
+  }
+  button{
+    height: 30px;
+    width: 80px;
+  }
+  .box2{
+   border: 2px solid black;
+    margin-left: 30px;
+   box-shadow: 2px 2px 2px rgba(9, 192, 46, 0.97);
+    height: 278px;
+    width: 300px;
+  }
+
+  .underweight {
+    background-color: #FF6B6B;
+}
+
+.normal-weight {
+    background-color: #66BB6A;
+}
+
+.overweight {
+    background-color: #FFD700;
+}
+
+.obesity {
+    background-color: #FF6347;
+}

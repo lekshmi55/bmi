@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>bmi</title>
+   <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <center>
+    <h1 style="background-color: rgba(9, 192, 46, 0.97);">BMI Calculator</h1></center>
+
+   
+<br><br>
+
+        <div class="container">
+            
+           
+            <div class="calculator">
+
+        
+       
+            
+                <label for="">Age</label>
+                <input type="number">
+          
+                <br><br>
+                <label>Gender</label>
+                <input type="radio" value="number" name="male">
+                <label for="">male</label>
+                <input type="radio" value="female"name="male">
+                <label for="">female</label>
+                <br><br>
+
+                <label  for="weight">Weight</label>
+                <input id="weight" type="text"><br><br>
+                <label  for="height">Height</label>
+                <input id="height" type="text">
+                <br><br>
+               
+                <center>
+                <button id="calculate">Calculate</button>
+                
+
+
+                <button>Clear</button>
+            </center>
+
+
+           
+        </div>
+
+        <div class="box2">
+            <h3>RESULT</h3>
+            <div id="result">Your BMI: <span id="bmiValue"></span></div>
+           <br><br>
+            <div class="bmi-chart">
+                <div class="chart-label">BMI Categories:</div>
+                <div class="chart">
+                    <div class="category underweight">Underweight : (below 18.5)</div>
+                    <div class="category normal-weight">Normal Weight :(18.5 – 24.9) </div>
+                    <div class="category overweight">Overweight : (25.0 – 29.9)</div>
+                    <div class="category obesity">Obesity : 30.0 and Above</div>
+                </div>
+
+
+
+        </div>
+    
+
+            
+      
+       
+
+
+    </div>
+
+       
+
+       
+
+
+
+
+
+
+
+           
+
+    <script src="./script.js"></script> 
+</body>
+</html>
